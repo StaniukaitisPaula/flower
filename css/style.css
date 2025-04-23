@@ -35,7 +35,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #00ee76, 0 0 50px #00ee76, 0 0 100px #00ee76;
+        text-shadow: 0 0 12px #0024ee, 0 0 50px #1000ee, 0 0 100px #0004ee;
     }
     10%, 90%{
         color: #111;
@@ -74,6 +74,14 @@ body{
     color: #f2f2f2;
   
 }
+
+.text{
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #f2f2f2;
+  
+}
 .color{
   border-radius: 10px; /* ajuste o valor conforme desejado */
     padding: 20px; /* opcional: adicione espaço interno ao botão */
@@ -84,7 +92,7 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background: linear-gradient(to bottom, #0ebfeb, #2ecc71)
+    background: linear-gradient(to bottom, #120eeb, #2e58cc)
 }
 
 
@@ -102,4 +110,57 @@ body{
     .button a{
         font-size: .5rem;
     }
+
+    
+}
+
+
+@media screen and (max-width:574px){
+/* Container que envolve todos os textos */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Já centraliza os textos que tiverem essa classe */
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Essa é a citação da bíblia, em vermelho */
+.text {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #0ebfeb;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Provavelmente é o texto logo abaixo da citação */
+.oi {
+    font-size: 15px;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #111;
+}
+
+
+
 }

@@ -271,7 +271,7 @@ body {
           animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #b623ff;
+  background-color: #238aff;
 }
 .flower__light--1 {
   left: -2vmin;
@@ -314,7 +314,7 @@ body {
           animation-delay: 3.5s;
 }
 .flower__grass {
-  --c: #2415aa;
+  --c: #190d88;
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
@@ -1319,3 +1319,4 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
